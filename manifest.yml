@@ -1,0 +1,6 @@
+applications:
+- name: ntest13
+  memory: 128M
+  command: node app.js
+  services:
+  - mongodbnode

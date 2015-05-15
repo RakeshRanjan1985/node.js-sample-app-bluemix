@@ -1,0 +1,25 @@
+extends layout
+
+block content
+    h1#title  Welcome to Bluemix Meetup
+    //p Welcome to meetup
+
+        // Wrapper
+    #wrapper
+
+        // ADD USER
+        h1#title Confirm Attendance/Registration
+        #addUser
+            fieldset
+                input#inputUserName(type='text', placeholder='Name')
+                br
+                input#inputUserEmail(type='text', placeholder='BluemixId/Emailid')
+                br
+                input#inputUserOrganisation(type='text', placeholder='Organization')
+                br
+                input#inputUserComments(type='text', placeholder='comments')
+                br
+                button#btnAddUser Confirm
+        // /ADD USER
+
+    // /WRAPPER
